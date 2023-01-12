@@ -1,0 +1,95 @@
+body{
+    margin: 0;
+    padding:0;
+    box-sizing: border-box;
+}
+#nav{
+    background-color: rgb(201, 7, 7)! important;
+    display: flex;
+    
+}
+.nav-link{
+    color: #ffff !important;
+    font-size: 20px;
+
+}
+.nav-item:hover{
+    color:rgb(199, 196, 196) !important ;
+    cursor: pointer;
+}
+.home{
+    height: 100%;
+    
+}
+#img{
+    object-fit: cover;
+    overflow: hidden;
+    filter: brightness(1);
+}
+#caption{
+    margin-bottom: 100px;
+    margin-left: 350px;
+
+}
+h1 {
+    font-style: bold;
+    font-size: 72px;
+    background: -webkit-linear-gradient(rgb(235, 4, 4), rgb(121, 5, 5));
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+  }
+p{
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    font-style: italic;
+    color: rgb(255, 245, 245);
+    font-size: 30px;
+}
+.services{
+    background-color: rgb(255, 255, 255);
+    margin-top: 100px;
+}
+#carde{
+    background-color: rgb(204, 204, 204); 
+    border-radius: 20px;
+  
+    
+}
+#second{
+    margin-top: 60px;
+}
+.list-group-item{
+    border-width: 0px 0px 0px !important;
+}
+#abouts{
+    margin-top: 60px;
+}
+h6{
+    font-size: 40px;
+}
+#lorem{
+    background-color: rgb(255, 255, 255);
+}
+#contact{
+    margin-top: 60px;
+}
+#number{
+background-color: rgb(204, 204, 204);
+border-radius: 10px;
+border-color: red;
+
+    
+}
+#map{
+    border-radius: 30px;
+
+}
+#list{
+    list-style-type: none;
+    
+}
+#ref a{
+    text-decoration: none;
+    color: rgb(104, 104, 104);
+    font-size: 20px;
+    
+}
